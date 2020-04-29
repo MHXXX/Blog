@@ -152,7 +152,7 @@ public class FactoryProducer {
 }
 ```
 ## 使用 FactoryProducer 来获取AbstractFactory，通过传递类型信息来获取实体类的对象。
-```
+```Java
 public class AbstractFactoryPatternDemo {
    public static void main(String[] args) {
  
@@ -201,7 +201,7 @@ public class AbstractFactoryPatternDemo {
 }
 ```
 ## 执行程序，输出结果。
-```
+```Java
 Inside Circle::draw() method.
 Inside Rectangle::draw() method.
 Inside Square::draw() method.

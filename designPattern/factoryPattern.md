@@ -28,13 +28,13 @@
 ![](https://www.runoob.com/wp-content/uploads/2014/08/factory_pattern_uml_diagram.jpg)
 
 ### 1.创建接口
-```
+```Java
 public interface Shape {
    void draw();
 }
 ```
 ### 2.创建实现接口的实体类
-```
+```Java
 public class Rectangle implements Shape {
  
    @Override
@@ -60,7 +60,7 @@ public class Circle implements Shape {
 }
 ```
 ### 3.创建一个工厂
-```
+```Java
 public class ShapeFactory {
     
    //使用 getShape 方法获取形状类型的对象
@@ -80,7 +80,7 @@ public class ShapeFactory {
 }
 ```
 ### 4.使用该工厂，通过传递类型信息来获取实体类的对象
-```
+```Java
 public class FactoryPatternDemo {
  
    public static void main(String[] args) {
@@ -107,7 +107,7 @@ public class FactoryPatternDemo {
 }
 ```
 ### 5.执行程序，输出结果
-```
+```Java
 Inside Circle::draw() method.
 Inside Rectangle::draw() method.
 Inside Square::draw() method.
